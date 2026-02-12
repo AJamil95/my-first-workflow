@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name: say Hello
-      run: echo "Hello from GitHub!!!"
-      -name: show Date
-      run: date
-      -name: list Files
-      run: ls -la  
+      - name: Say Hello
+        run: echo "Hello from GitHub!!!"
+      - name: Show Date
+        run: date
+      - name: List Files
+        run: ls -la
