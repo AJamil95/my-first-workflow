@@ -8,8 +8,8 @@ jobs:
 
     steps:
       -name: say Hello
-        run: echo "Hello from GitHub!!!"
+      run: echo "Hello from GitHub!!!"
       -name: show Date
-        run: date
+      run: date
       -name: list Files
-        run: ls -la  
+      run: ls -la  
